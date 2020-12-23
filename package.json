@@ -1,0 +1,19 @@
+{
+  "name": "transcoder",
+  "version": "1.0.0",
+  "description": "MP4動画ファイルをAWSを使ってHLS配信できるファイルに変換する",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "browserify src/index.js > build/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SampleUser0001/MovieTranscoder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SampleUser0001/MovieTranscoder/issues"
+  },
+  "homepage": "https://github.com/SampleUser0001/MovieTranscoder#readme"
+}
